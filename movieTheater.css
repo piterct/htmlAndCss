@@ -1,0 +1,28 @@
+h1 {
+  color: black;
+}
+
+p a {
+  color: seagreen;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.homeButton {
+  color: blue;
+}
+
+.today {
+  color: darkred;
+}
+
+.tomorrow {
+  color: darkblue;
+}
