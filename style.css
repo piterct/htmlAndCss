@@ -1,9 +1,19 @@
-a {
-  color: black;
-  text-decoration: none;
+#introduction {
+  color: gold;
 }
 
-a {
-  color: tomato;
+.code .design {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.big {
   font-size: 32px;
 }
