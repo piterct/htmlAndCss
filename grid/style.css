@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+}
+
+.item {
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+}
