@@ -3,6 +3,13 @@ img {
   display: block;
 }
 
+body {
+  background: lightblue;
+}
+.extension {
+  width: 600px;
+}
+
 .picture {
   width: 150px;
 }
