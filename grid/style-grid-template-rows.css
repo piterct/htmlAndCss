@@ -1,25 +1,17 @@
 .grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
-
 .title {
-  grid-column: 2;
-  text-align: right;
+  grid-column: 1/ -1;
 }
 
-.price {
-  place-self: start end;
-}
-
-.buy {
-  align-self: start;
-  text-align: center;
-}
-
-.description {
-  text-align: left;
+.info {
+  place-self: start;
+  display: grid;
+  place-items: start;
+  gap: 20px;
 }
 
 body {
