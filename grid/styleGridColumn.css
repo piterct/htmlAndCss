@@ -4,16 +4,22 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.picture {
-  grid-column: 1 / -1;
+.title {
+  grid-column: 2;
+  text-align: right;
 }
 
-.description {
-  grid-column: 1 / -1;
+.price {
+  place-self: start end;
 }
 
 .buy {
-  grid-column: 1 / -1;
+  align-self: start;
+  text-align: center;
+}
+
+.description {
+  text-align: left;
 }
 
 body {
