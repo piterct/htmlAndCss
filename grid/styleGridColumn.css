@@ -1,3 +1,21 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.picture {
+  grid-column: 1 / -1;
+}
+
+.description {
+  grid-column: 1 / -1;
+}
+
+.buy {
+  grid-column: 1 / -1;
+}
+
 body {
   font-family: Arial;
   margin: 40px;
